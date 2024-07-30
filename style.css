@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    line-height: 1;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/*--------------------*/
+
+*{
+    box-sizing: border-box;
+}
+
+:root {
+    --blue: #004c8a;
+    --light-blue: #004aad;
+    --red: #eb132b;
+}
+
+body{
+    font-family: Montserrat, sans-serif;
+}
+
+.container {
+    /*border: 1px solid red;*/
+    width: 1140px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.header{
+    box-shadow: 0 4px 6px -6px #222;
+    padding: 20px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+}
+
+.header_word{
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--blue);
+}
+
+.header_phone{
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--red);
+}
+
+.banner{
+    width: 100%;
+    height: auto;
+}
+
+.text-block-one{
+    font-size: 20px;
+    line-height: 1.3;
+    color: var(--light-blue);
+    padding: 100px 0 100px;
+}
+
+.text-block-two{
+    color: var(--light-blue);
+    font-size: 36px;
+    line-height: normal;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.partners-block {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.partners-card {
+    border: 1px solid var(--light-blue);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.partners-card img {
+    width: 100px;
+}
+
+.partners-card p:nth-child(2) {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.partners-card p:nth-child(3),
+.partners-card p:nth-child(4) {
+    font-size: 10px;
+    margin: 0;
+    line-height: normal;
+    color: gray;
+}
+
+footer{
+    margin-top: 100px;
+    box-shadow: 0 -4px 6px -6px #222;
+    padding: 20px 40px;
+    color: var(--blue);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.msk-logo{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.px-40{
+    padding: 0 40px;
+}
