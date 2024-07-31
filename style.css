@@ -133,11 +133,22 @@ body{
 }
 
 .text-block-two{
+    padding-bottom: 50px;
+}
+
+.text-block-two_h{
     color: var(--light-blue);
     font-size: 36px;
     line-height: normal;
     text-align: center;
-    padding-bottom: 50px;
+}
+
+.text-block-two_sub{
+    color: var(--light-blue);
+    font-size: 20px;
+    line-height: normal;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .partners-block {
@@ -157,6 +168,7 @@ body{
 }
 
 .partners-card p:nth-child(2) {
+    padding-top: 5px;
     font-size: 16px;
     font-weight: 500;
     text-align: left;
